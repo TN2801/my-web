@@ -35,6 +35,20 @@
     text-align: left;
 }
 
+.burger {
+    width: 80px;
+    height: 54px;
+    background-color: transparent;
+    border: none;
+}
+
+.burger__line {
+    width: 100%;
+    height: 10px;
+    background: rgb(196, 196, 196);
+    margin-bottom: 10px;
+}
+
 .hero-block {
     background: rgb(44, 44, 44);
 }
@@ -48,7 +62,7 @@
 
 .hero-block__title {
     color: rgb(228, 228, 228);
-    font-family: Comfortaa    ;
+    font-family: Comfortaa;
     font-size: 64px;
     font-weight: 400;
     line-height: 77.45px;
@@ -56,130 +70,240 @@
     text-align: left;
     margin-bottom: 70px;
 }
-.hero-block__link{
+
+.hero-block__link {
     background: rgb(22, 118, 255);
     color: rgb(0, 0, 0);
-font-family: Comfortaa;
-font-size: 18px;
-font-weight: 400;
-line-height: 21.78px;
-letter-spacing: 0px;
-text-align: left;
-padding: 14px 48px 15px;
-border-radius: 6px;
-text-decoration: none;
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 14px 48px 15px;
+    border-radius: 6px;
+    text-decoration: none;
 }
-.about{
+
+.about {
     background: rgb(112, 158, 224);
 }
-.container_about{
+
+.container_about {
     padding: 60px 0px 99px;
 }
-.about__title{
+
+.about__title {
     color: rgb(228, 228, 228);
-font-family: Comfortaa;
-font-size: 48px;
-font-weight: 400;
-line-height: 58.09px;
-letter-spacing: 0px;
-text-align: center;
-margin-bottom: 65px;
+    font-family: Comfortaa;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.09px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 65px;
 }
-.about__content{
+
+.about__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.about__text{
+
+.about__text {
     color: rgb(228, 228, 228);
-font-family: Comfortaa;
-font-size: 28px;
-font-weight: 400;
-line-height: 33.89px;
-letter-spacing: 0px;
-text-align: left;
-max-width: 400px;
+    font-family: Comfortaa;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.89px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 400px;
 }
-.video{
+
+.video {
     background: rgb(44, 44, 44);
 }
-.container_video{
+
+.container_video {
     padding: 60px 0px 100px;
 }
-.video__title{
+
+.video__title {
     color: rgb(228, 228, 228);
-font-family: Comfortaa;
-font-size: 48px;
-font-weight: 400;
-line-height: 58.09px;
-letter-spacing: 0px;
-text-align: center;
-margin-bottom: 81.45px;
+    font-family: Comfortaa;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.09px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 81.45px;
 }
-.video__video{
+
+.video__video {
     width: 100%;
     height: 637px;
     border: 52px solid rgb(65, 65, 65);
     border-radius: 26px;
     box-sizing: border-box;
 }
-.gallery{
+
+.gallery {
     background: rgb(112, 158, 224);
     padding: 70px 0px 100px;
 }
-.gallery__title{
+
+.gallery__title {
     color: rgb(228, 228, 228);
-font-family: Comfortaa;
-font-size: 48px;
-font-weight: 400;
-line-height: 58.09px;
-letter-spacing: 0px;
-text-align: center;
-margin-bottom: 81.45px;
+    font-family: Comfortaa;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.09px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 81.45px;
 }
-.gallery__list{
+
+.gallery__list {
     display: flex;
     flex-wrap: wrap;
 }
-.gallery__item{
+
+.gallery__item {
     width: 50%;
 }
-.gallery__img{
+
+.gallery__img {
     width: 100%;
 }
-.footer{
+
+.footer {
     background: rgb(44, 44, 44);
 }
-.container__footer{
+
+.container__footer {
     padding: 50px 0px 54px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer__title{
-color: rgb(228, 228, 228);
-font-family: Comfortaa;
-font-size: 30px;
-font-weight: 400;
-line-height: 36.31px;
-letter-spacing: 0px;
-text-align: left;
-}
-.footer__text{
+
+.footer__title {
     color: rgb(228, 228, 228);
-font-family: Comfortaa;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.36px;
-letter-spacing: 0px;
-text-align: left;
-margin-top: 15px;
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.31px;
+    letter-spacing: 0px;
+    text-align: left;
 }
-.footer__list{
+
+.footer__text {
+    color: rgb(228, 228, 228);
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.footer__list {
     display: flex;
     align-items: center;
     list-style: none;
 }
-.footer__item:not(:first-child){
+
+.footer__item:not(:first-child) {
     margin-left: 24px;
+}
+
+@media (max-width:834px){
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .hero-block__img {
+        display: none;
+    }
+
+    .container {
+        max-width: 580px;
+    }
+    .hero-block__content{
+        margin:  0 auto;
+    }
+    .hero-block__title{
+        text-align: center;
+    }
+    .hero-block__link{
+        display: block;
+        width: 146px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about__content{
+        flex-direction: column;
+    }
+    .about__text{
+        margin-bottom: 69px;
+        max-width: 583px;
+        text-align: justify;
+    }
+    .video__video{
+        height: 447.08px;
+        border-width: 44px;
+    }
+}
+@media (max-width:390px) {
+    .container{
+        max-width: 340px;
+    }
+    .burger{
+        width:60px;
+    }
+    .hero-block__title{
+        font-size: 50px;
+    }
+    .about__title{
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+    .about__text{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .about__img{
+        width: 100%;
+    }
+    .video__video{
+        height: 200px;
+        border-width: 15px;
+    }
+    .video__title{
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+    .gallery__title{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .gallery__list{
+        flex-direction: column;
+        max-width: 340px;
+        margin: 0px auto;
+        list-style: none;
+    }
+    .gallery__item{
+        width: 100%;
+    }
+    .container__footer{
+        flex-direction: column;
+        gap: 20px;
+    }
 }

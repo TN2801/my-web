@@ -5,7 +5,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Pacifico&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
    <header class="header">
@@ -14,11 +16,16 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item">главная</li>
-                <li class="nav__item">о нас</li>
-                <li class="nav__item">скриншоты</li>
-                <li class="nav__item">отзывы</li>
+                <li class="nav__item"><a href="about.html" class="nav__link">о нас</a></li>
+                <li class="nav__item"><a href="photo.html" class="nav__link">скриншоты</a></li>
+                <li class="nav__item"><a href="video.html" class="nav__link">видео</a></li>
             </ul>
         </nav>
+        <button class="burger">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+        </button>
     </div>
    </header>
    <main class="main">
@@ -52,22 +59,22 @@
         <h2 class="gallery__title">Галерея</h2>
         <ul class="gallery__list">
             <li class="gallery__item">
-                <a href="" class="lightzoon">
+                <a href="img/gallery__img(1).png" class="lightzoom">
                     <img src="img/gallery__img(1).png" class="gallery__img">
                 </a>
             </li> 
             <li class="gallery__item">
-                <a href="" class="lightzoon">
+                <a href="img/gallery__img(2).png" class="lightzoom">
                     <img src="img/gallery__img(2).png" class="gallery__img">
                 </a>
             </li>
             <li class="gallery__item">
-                <a href="" class="lightzoon">
+                <a href="img/gallery__img(3).png" class="lightzoom">
                     <img src="img/gallery__img(3).png" class="gallery__img">
                 </a>
             </li>
             <li class="gallery__item">
-                <a href="" class="lightzoon">
+                <a href="img/gallery__img(4).png" class="lightzoom">
                     <img src="img/gallery__img(4).png" class="gallery__img">
                 </a>
             </li>
@@ -90,6 +97,9 @@
         </ul>
     </div>
    </footer>
-
+   <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+   <script type="text/javascript">
+    jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+    </script>
 </body>
 </html>
